@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+
+# Allow all search engines to crawl the main page
+Allow: /index.html
+
+# Allow crawling of CSS and JavaScript files
+Allow: /css/
+Allow: /scripts/
+
+# Allow crawling of images
+Allow: /images/
+
+# Disallow crawling of backup and copy files
+Disallow: /index backup.html
+Disallow: /index copy.html
+Disallow: /index copy 2.html
+Disallow: /index-online copy.html
+
+# Disallow system files
+Disallow: /.DS_Store
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /Archive.zip
+
+# Sitemap location
+Sitemap: https://mahipaljat.com/htdocs/sitemap.xml
